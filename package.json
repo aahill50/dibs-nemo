@@ -1,0 +1,32 @@
+{
+  "name": "dibs-nemo",
+  "version": "0.0.0",
+  "description": "Nemo JS selenium test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aahill50/dibs-nemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aahill50/dibs-nemo/issues"
+  },
+  "homepage": "https://github.com/aahill50/dibs-nemo",
+  "dependencies": {
+    "nemo": "^0.3.1",
+    "mocha": "^2.1.0",
+    "chai": "^1.10.0",
+    "nemo-view": "^0.3.0",
+    "nemo-drivex": "^0.1.5",
+    "nemo-locatex": "^0.1.4",
+    "nemo-mocha-factory": "^0.3.1",
+    "lodash": "^2.4.1"
+  },
+  "scripts": {
+    "start": "mocha nemoExample.js"
+  }
+}

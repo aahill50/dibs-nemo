@@ -1,0 +1,10 @@
+{
+  "searchBar": {
+    "locator": "input[name=q]",
+    "type": "css"
+  },
+  "searchResults": {
+    "locator": "ul#ui-id-1",
+    "type": "css"
+  }
+}
