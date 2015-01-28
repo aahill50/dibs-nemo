@@ -1,5 +1,7 @@
 /*global nemo:true, describe:true, it:true */
 var Nemo = require('nemo'),
+    chai = require('chai'),
+    expect = chai.expect,
     mocha = require('mocha'),
     plugins = require('./config/plugins.json'),
     nemoFactory = require('nemo-mocha-factory'),
@@ -17,7 +19,7 @@ process.env.nemoData = JSON.stringify({
     autoBaseDir: __dirname
 });
 
-describe('this is a @nemoSuite@', function() {
+describe('1stdibs - Global Search', function() {
     this.timeout(5000); //Set the default ms to wait for a page load before failing
     nemoFactory({"context": nemo, "plugins": plugins, "setup": setup});
 
