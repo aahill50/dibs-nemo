@@ -4,7 +4,7 @@
   "description": "Nemo JS selenium test",
   "main": "index.js",
   "scripts": {
-    "start": "mocha nemoExample.js"
+    "start": "./node_modules/mocha/bin/mocha nemoExample.js"
   },
   "repository": {
     "type": "git",
